@@ -12,9 +12,8 @@ DO NOT USE BOTH VERSION.
 
 ## How to compile
 
-If you just need a working .jar file, buy AngelChest Plus on SpigotMC (link is above). If you have a legit reason to compile this yourself, join my Discord server and ask for help there (link is below).
-
-TL;DR: You cannot simply run `mvn package` on this. And I won't help you how to do it. Buy the plugin on SpigotMC.
+the legit compile reason is that the plugin is discontinued, this means we have been betrayed by mfnalex.\
+`mvn package` is required. so do not give him any sympathy.
 
 ## Discord
 
