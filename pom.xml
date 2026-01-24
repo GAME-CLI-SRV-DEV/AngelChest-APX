@@ -260,7 +260,11 @@
             <id>jeff-media-public</id>
             <url>https://repo.jeff-media.com/public/</url>
         </repository>
-
+         <repository>
+           <id>paulem-releases</id>
+           <name>Paulem&#39;s Repo</name>
+           <url>https://maven.paulem.net/releases</url>
+         </repository>
 <!--        <repository>-->
 <!--            <id>sirblobman-public</id>-->
 <!--            <url>https://nexus.sirblobman.xyz/repository/public/</url>-->
@@ -330,11 +334,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>de.jeff_media</groupId>
-            <artifactId>SpigotUpdateChecker</artifactId>
-            <version>1.3.0</version> <!-- Check on GitHub for the latest version -->
-            <scope>compile</scope>
-        </dependency>
+         <dependency>
+           <groupId>com.jeff_media</groupId>
+           <artifactId>SpigotUpdateChecker</artifactId>
+           <version>3.0.4</version>
+          <scope>compile</scope>
+         </dependency>
         <dependency>
             <groupId>de.jeff_media</groupId>
             <artifactId>AngelChestAPI</artifactId>
